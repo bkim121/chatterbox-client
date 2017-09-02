@@ -7,6 +7,7 @@
 
     <!-- dependencies -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
     <script>
       // YOU DO NOT NEED TO EDIT THIS CODE
       if (!/(&|\?)username=/.test(window.location.search)) {
@@ -24,9 +25,20 @@
   </head>
   <body>
     <div id="main">
-      <h1>chatterbox</h1>
+      <h1>Chatterbox</h1>
       <!-- Your HTML goes here! -->
+      <select id="roomSelect">
+          <option value="Room Here">Room Here</option>
+      </select>
+
+      
+
+      <p id="chats"></p>
     </div>
-    <div id="chats"></div>
+    <script>
+      // $('.username').on('click', function() {
+      //   app.handleUsernameClick();
+      // });
+    </script>
   </body>
 </html>
